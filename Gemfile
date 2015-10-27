@@ -31,6 +31,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'minitest-reporters', '1.0.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'guard'
+gem 'guard-minitest'
+gem 'mini_backtrace'
+gem 'binding_of_caller', git: "https://github.com/banister/binding_of_caller.git"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

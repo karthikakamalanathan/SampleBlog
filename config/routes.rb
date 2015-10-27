@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
   get 'static_pages/about'
 
+  get 'static_pages/contact'
+
+  get 'static_pages/services'
+
   resources :static_pages
 
   root 'static_pages#home'
