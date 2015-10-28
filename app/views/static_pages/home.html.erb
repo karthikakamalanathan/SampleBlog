@@ -1,7 +1,16 @@
 <% provide(:title, "Home") %>
-<h1>Sample App</h1>
+
+<div class="center jumbotron">
+<button type="button"><h1>Sample App</h1></button>
 <p>
   This is the home page for the
-  <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+  <input style="background-color:pink" type="button" value="Ruby on Rails Tutorial" onclick="window.location.href='http://www.railstutorial.org/'" />
+  <!-- <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> -->
   sample application.
 </p>
+
+<%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
