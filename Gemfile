@@ -36,6 +36,13 @@ gem 'guard-minitest'
 gem 'mini_backtrace'
 gem 'binding_of_caller', git: "https://github.com/banister/binding_of_caller.git"
 gem 'bcrypt'
+gem 'gravatar'
+gem 'puma'
+gem 'faker'
+
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 
 gem 'bootstrap-sass'
 group :development, :test do
